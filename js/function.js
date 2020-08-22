@@ -8,6 +8,7 @@ function validateForm(){
     var femme = document.getElementById("femme").checked;
     var autre = document.getElementById("autre").checked;
     var telephone = document.getElementById("telephone").value;
+    var notification = document.getElementById("notification");
 
     if(nom == ""){
         alert("Le Nom est vide !");
@@ -55,11 +56,8 @@ function validateForm(){
     }
 
     else {
-        return true;
-        afficheNotification();
+        notification.innerText = "Le formulaire a été envoyé avec succé !";
+        return false;
     }
 
-    function afficheNotification(){
-        
-    }
 }

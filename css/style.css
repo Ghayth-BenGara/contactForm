@@ -33,6 +33,7 @@ fieldset{
     width: 38%;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:2%;
 }
 
 .image{
@@ -74,15 +75,15 @@ fieldset{
     position: relative;
     margin-right: 5%;
     margin-bottom: 20%;
-    margin-top:-50%;
+    margin-top:-70%;
 }
 
-.notification{
+#notification{
     color:green;
     font-variant-caps: small-caps;
     font-style: italic;
     font-family: monospace;
     text-align: center;
-    padding:20%;
-    letter-spacing: 3px;
+    padding:5%;
+    letter-spacing: 1px;
 }
