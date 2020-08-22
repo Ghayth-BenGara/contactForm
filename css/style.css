@@ -1,0 +1,67 @@
+body{
+    background-color: whitesmoke;
+}
+
+.titre_h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 5%;
+    text-decoration: underline;
+    text-shadow: 4px 4px 4px silver;
+    color: blue;
+    font-variant: small-caps;
+}
+
+#f{
+    width: 60%;
+    position: relative;
+    text-align: center;
+    left: 20%;
+    top:8%;
+}
+
+fieldset{
+    color: black;
+    font-weight: bold;
+    margin:20px;
+}
+
+#nom,#prenom,#email,#password,#cin,#telephone{
+    text-align: center;
+    color: blue;
+    width: 38%;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image{
+    text-align: center;
+    height: 25%;
+    width: 25%;
+}
+
+.envoyer{
+    color:white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #6314F7;
+    width: 30%;
+    padding:20px;
+    text-align: center;
+    font-variant-caps: small-caps;
+}
+
+.effacer{
+    color:white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #F71425;
+    width: 30%;
+    padding:20px;
+    text-align: center;
+    font-variant-caps: small-caps;
+    margin-left: 5%;
+}

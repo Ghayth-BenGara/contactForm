@@ -1,3 +1,43 @@
 <html>
-    
+    <title>Formulaire de contact</title>
+    <head>
+        <link rel = "icon" type = "image/png" href = "images/logo.jpg" />
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+    </head>
+    <body>
+        <h1 class = "titre_h1">Exemple de formulaire de contact</h1>
+        <form name = "f" id = "f" method = "POST" action = "#">
+            <fieldset>
+                <legend>Remplir le formulaire..</legend>
+                <input type = "text" placeholder = "Saisissez votre Nom.." id = "nom" name = "nom">
+                <br>
+                <br>
+                <input type = "text" placeholder = "Saissez votre Prénom.." id = "prenom" name = "prenom">
+                <br>
+                <br>
+                <input type = "number" placeholder = "Saissez votre CIN.." id = "cin" name = "cin">
+                <br>
+                <br>
+                <input type = "email" placeholder = "Saissez votre E-mail.." id = "email" name = "email">
+                <br>
+                <br>
+                <input type = "password" placeholder = "Saissez votre Password.." id = "password" name = "password">
+                <br>
+                <br>
+                <input type = "radio" id = "homme" name = "gendre"><label for = "homme">Homme</label>
+                <input type = "radio" id = "femme" name = "gendre"><label for = "femme">Femme</label>
+                <input type = "radio" id = "autre" name = "gendre"><label for = "autre">Autre</label>
+                <br>
+                <br>
+                <input type = "number" placeholder = "Saissez votre numéro mobile.." id = "telephone" name = "telephone">
+                <br>
+                <br>
+                <image src = "images/login.png" class = "image"></image>
+                <br>
+                <br>
+                <input type = "button" value = "Envoyer" class = "envoyer">
+                <input type = "reset" value = "Effacer" class = "effacer">
+            </fieldset>
+          </form>
+    </body>
 </html>
