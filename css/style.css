@@ -14,7 +14,7 @@ body{
 }
 
 #f{
-    width: 60%;
+    width: 70%;
     position: relative;
     text-align: center;
     left: 20%;
@@ -64,4 +64,15 @@ fieldset{
     text-align: center;
     font-variant-caps: small-caps;
     margin-left: 5%;
+}
+
+#division{
+    background-color: white;
+    width: 20%;
+    height: 40%;
+    float: right;
+    position: relative;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    margin-top:-50%;
 }
