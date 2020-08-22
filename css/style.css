@@ -68,11 +68,21 @@ fieldset{
 
 #division{
     background-color: white;
-    width: 20%;
+    width: 25%;
     height: 40%;
     float: right;
     position: relative;
     margin-right: 5%;
     margin-bottom: 20%;
     margin-top:-50%;
+}
+
+.notification{
+    color:green;
+    font-variant-caps: small-caps;
+    font-style: italic;
+    font-family: monospace;
+    text-align: center;
+    padding:20%;
+    letter-spacing: 3px;
 }
